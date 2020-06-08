@@ -1,0 +1,13 @@
+
+    - path: /urlshort
+      url: https://github.com/gophercises/urlshort
+    - path: /urlshort-final
+      url: https://github.com/gophercises/urlshort/tree/solution
+    - path: /test
+      url: https://github.com/gophercises/urlshort/tree/solution
+    - path: /goog
+      url: https://google.com
+    - path: /songs
+      url: https://genius.com/artists/Laura-marling
+      
+      

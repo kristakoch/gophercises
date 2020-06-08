@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Result</title>
+
+    <!-- Prevent image caching in the browser -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+</head>
+<body style="background: #f7f7f7">
+    <div style="width: 100%; font-family: Helvetica; margin: auto; max-width: 1200px; font-weight: lighter; padding: 40px 0px">
+
+        <div style="margin: 40px 0px; box-shadow: 0px 0px 10px #dedede; border-radius: 5px; background: white">
+
+            <!-- Descriptive paragraph -->
+            <div style="padding: 20px 3%">
+                <h1 style="margin: 0">All finished</h1>
+                <p>Your final image is below. Enjoy!</p>
+            </div>
+
+        </div>
+
+        <!-- Display the final result for the image based on past choices -->
+        <a href="{{.FinalImageURL}}">
+          <img src="{{.FinalImageURL}}"/>
+        </a>
+
+        <form action="{{.FullResultURL}}" method="post">
+            <input type="submit" name="regenerateImage" style="margin: 10px 0px; background: black; color: white; text-transform: uppercase; border: none; padding: 10px 30px" value="Regenerate Image" class="btn" />
+        </form>
+    </div>  
+</body>

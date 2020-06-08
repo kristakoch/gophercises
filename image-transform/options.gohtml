@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Image Options</title>
+
+    <!-- Prevent image caching in the browser -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+</head>
+<body style="background: #f7f7f7">
+    <div style="width: 100%; font-family: Helvetica; margin: auto; max-width: 1200px; font-weight: lighter; padding: 40px 0px">
+
+        <div style="margin: 40px 0px; box-shadow: 0px 0px 10px #dedede; border-radius: 5px; background: white">
+
+            <!-- Descriptive paragraph -->
+            <div style="padding: 20px 3%">
+                <h1 style="margin: 0">📸 Decision time: {{.ChoiceName}}</h1>
+                <p>Your image has been processed into those below. Choose your favorite to proceed.</p>
+            </div>
+
+        </div>
+
+        <!-- Display the modded images in a line -->
+        <div style="display: flex; flex-wrap: wrap">
+
+        <!-- Slug represents the slug of the next page -->
+        {{ $Slug := .NextURL }}
+
+        {{ range .ModifiedImages }}
+            <a href="./{{$Slug}}?{{.ChoicesQuery}}" style="flex-basis: 33%; min-width: 300px"><img style="box-shadow: 0px 0px 10px #c2c1c3; width: 98%; margin: 1% 0px" src="{{.ImageSrc}}"/></a>
+        {{ end }}
+
+        </div>
+
+    </div>  
+</body>

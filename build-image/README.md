@@ -1,0 +1,1 @@
+Run with `go run bar-graph.go` and `go run image-server.go`

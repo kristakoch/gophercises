@@ -1,0 +1,1 @@
+Run with `go run main.go` + any args, ex: `go run main.go -regex=marias -newprefix=marias-birthday` etc

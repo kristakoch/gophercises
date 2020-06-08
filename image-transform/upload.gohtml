@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Upload</title>
+</head>
+<body style="font-family: Helvetica;">
+    <div class="container" style="max-width: 1000px; margin: 65px auto">
+        <div class="page-header">
+            <h1>Upload an image</h1>
+        </div>
+        <form role="form" action="/upload" enctype="multipart/form-data" method="post">
+            <div>
+                <label for="fileUpload">Choose a file to be modified</label>
+                <input type="file" name="fileUpload" required/>
+            </div>
+            <input style="margin: 10px 0px; background: black; color: white; text-transform: uppercase; border: none; padding: 10px 30px" type="submit" value="Upload" class="btn" />
+        </form>
+    </div>
+</body>

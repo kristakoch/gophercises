@@ -1,0 +1,31 @@
+[
+    {
+      "UnitName":       "2x6 Lumber - 8'",
+      "PricePerUnit":   375, 
+      "UnitsPurchased": 220
+    },
+    {
+      "UnitName":       "2x6 Lumber - 10'",
+      "PricePerUnit":   555,
+      "UnitsPurchased": 18
+    },
+    {
+      "UnitName":       "2x4 Lumber - 8'",
+      "PricePerUnit":   299, 
+      "UnitsPurchased": 80
+    },
+    {
+      "UnitName":       "Drywall Sheet",
+      "PricePerUnit":   822, 
+      "UnitsPurchased": 50
+    }, {
+      "UnitName":       "Paint",
+      "PricePerUnit":   1455, 
+      "UnitsPurchased": 3
+    },
+    {
+      "UnitName":       "Some item with a super long unit name to test our word wrap",
+      "PricePerUnit":   999, 
+      "UnitsPurchased": 22
+    }
+] 

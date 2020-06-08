@@ -1,0 +1,20 @@
+Name of first lesson and section, Introduction
+Name of last lesson and section, Wrapping Up
+True/False: There should always be a link to the most important resource at the first lesson of the section, true
+True/False: Solution: Part 1 and Solution: Part 2 is a valid naming scheme for two solution lessons, false
+Change the name 'Control Flow and Loops' to fit in with style guide requirements, Control Flow & Loops
+True/False: we use pronouns in descriptions, false
+True/False: we use first and last name of instructor in the description for the first lesson, true
+Name of issue for removing section, cut this
+Name of issue for sound problem, audio issue
+Name of issue for relocating a segment, move this
+Name of issue for changing lesson name, renamed
+Name of issue for visual issues, video edit
+Name of issue for putting lessons together, merge this
+Typical length of a lesson in minutes, 10|ten
+True/False: you should be coding along with the teacher, true
+True/False: lesson titles can be the same so long as they're in different sections, false
+Fix this exercise lesson title -> 'Exercise: Interfaces and Unions', Interfaces & Unions Exercise
+True/False: descriptions should start with the instructor's first name, true
+smallest number of seconds from the beginning and end of the lesson that annotations should be added, 5|five
+Place where videos are downloaded locally from, Dropbox

@@ -1,0 +1,1 @@
+Run with `go build -o urlshort && ./urlshort` + any args

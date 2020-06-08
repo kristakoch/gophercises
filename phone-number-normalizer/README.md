@@ -1,0 +1,1 @@
+Run with `go run main.go`. Note I was experimenting with databases, so I had a sql database running with a name of meetupgroup

@@ -1,0 +1,1 @@
+Run with `go run camel.go` and `go run cipher.go`. Note that the programs are expecting a \[CAMEL/CIPHER\]_OUTPUT_PATH env which you can do a `export CIPHER_OUTPUT_PATH="output.txt"` to fix. Also note that, though there's no log for it, the program is expecting some input from stdin. Error handling and logging could definitely be improved here.

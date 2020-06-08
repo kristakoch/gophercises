@@ -1,0 +1,1 @@
+Run with `go build -o vault && ./vault`. Organization is pretty bad here, similar to in the other cli packages, because I still need to figure out how to deal with referencing local and private repos

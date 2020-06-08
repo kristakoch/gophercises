@@ -1,0 +1,1 @@
+Run with `go build -o task && ./task` with arguments for the task manager. Organization on this one is pretty horrendous to be honest, but it does work
